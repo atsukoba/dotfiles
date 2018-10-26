@@ -1,12 +1,11 @@
-# setting files
+# setting dot files
 
-- 
-
-- matplotlib `./.matplotlib`
+at `~/` set these files.
 
 - jupyter `./.jupyter/custom`
 
+- matplotlib `./.matplotlib`
+
 - dotfiles
   - `.bashrc`
-  - `.bash_profile`y`
-
+  - `.bash_profile`
