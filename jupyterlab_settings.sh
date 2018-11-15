@@ -23,3 +23,6 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install @jupyterlab/git
 pip install jupyterlab-git
 jupyter serverextension enable --py jupyterlab_git
+
+## Rebuild JupyterLab packages
+jupyter lab build
