@@ -1,6 +1,7 @@
 #!/bin/bash
+
 # AtsuyaKobayashi
-#
+
 ## Requirements
 # Python(Anaconda), nodejs, npm, 
 
@@ -19,10 +20,13 @@ conda install -c conda-forge ipywidgets
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
-## install of git extention
+## install git extention
 jupyter labextension install @jupyterlab/git
 pip install jupyterlab-git
 jupyter serverextension enable --py jupyterlab_git
+
+## install jupyter-lab tensorboard
+jupyter labextension install jupyterlab_tensorboard
 
 ## Rebuild JupyterLab packages
 jupyter lab build
